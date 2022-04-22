@@ -58,6 +58,26 @@
 
 	</feature>
 
+	<feature name="wxPlus"> 
+	
+		<param name="urlScheme" value=""/>
+		
+		<param name="apiKey" value="="/>
+		
+		<param name="apiSecret" value=""/>
+		
+		<param name="universalLink" value=""/>
+	
+	</feature>
+
+	<feature name="ajpush">
+	
+		<param name="app_key" value=""/>
+		
+		<param name="channel" value=""/>
+		
+	</feature>
+
 	<!-- <meta-data name="EASEMOB_APPKEY" value="1108200605042941#cloudhos"/> -->
 
 	<!-- <feature name="easeChat">
