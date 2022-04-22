@@ -46,9 +46,9 @@ var config = {
   /*
    * Application AppKey
    */
-  // appkey:"gdpwq123#ceshi",
+  appkey:"gdpwq123#ceshi",
   //1102200519107623#cloudhos
-  appkey: "1108200605042941#cloudhos",
+  // appkey: "1108200605042941#cloudhos",
   /*
    * Application Host
    */

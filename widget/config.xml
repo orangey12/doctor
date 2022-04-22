@@ -50,12 +50,20 @@
 
 	<permission name="hardware"/>
 
-	<meta-data name="EASEMOB_APPKEY" value="1108200605042941#cloudhos"/>
+	<meta-data name="EASEMOB_APPKEY" value="gdpwq123#ceshi"/>
 
 	<feature name="easeChat">
 
-		<param name="appKey" value="1108200605042941#cloudhos"/>
+		<param name="appKey" value="gdpwq123#ceshi"/>
 
 	</feature>
+
+	<!-- <meta-data name="EASEMOB_APPKEY" value="1108200605042941#cloudhos"/> -->
+
+	<!-- <feature name="easeChat">
+
+		<param name="appKey" value="1108200605042941#cloudhos"/>
+
+	</feature> -->
 
 </widget>

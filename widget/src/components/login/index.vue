@@ -155,7 +155,7 @@ export default {
     if (myJsTools.getItem("firstInitPopup") != '2') {
       this.showQxPopup = true;
     }
-    this.logoSrc = myJsTools.getItem("logoSrc");
+    this.logoSrc = myJsTools.getItem("logoSrc") || this.logoSrc;
   },
   mounted() {
     //获取之前选择的登录方式
@@ -276,6 +276,7 @@ export default {
     registerUser(res) {
       var that = this;
       var easeChat = api.require("easeChat");
+      console.log(JSON.stringify(easeChat), 'easeChat ========================>删')
       easeChat.easeRegister(
         {
           username: res.data.docId,

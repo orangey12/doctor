@@ -297,6 +297,7 @@ export default {
         pageUrl = process.env.baseURL
       }
       // myJsTools.setItem("downColor", process.env.downColor);
+      console.log(process.env.logoSrc, 'logo====================================>删')
       myJsTools.setItem("pageUrl", pageUrl);
       myJsTools.setItem("logoSrc", require(process.env.logoSrc));
       myJsTools.setItem("appName", process.env.name);
